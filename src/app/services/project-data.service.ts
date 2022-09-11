@@ -10,6 +10,6 @@ export class ProjectDataService {
     return this.http.get(`https://vikas-rai-portfolio.herokuapp.com/`)
   }
   getDataById(id:any){
-    return this.http.get(`https://vikas-rai-portfolio.herokuapp.com/${id}`)
+    return this.http.get(`https://vikas-rai-portfolio.herokuapp.com/project/${id}`)
   }
 }
