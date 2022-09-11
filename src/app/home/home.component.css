@@ -1,0 +1,460 @@
+.home{
+    /* background-color: goldenrod; */
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 0;
+}
+.container{
+    /* border: 2px solid red; */
+    display: flex;
+    width: 70%;
+    height: 75vh;
+    margin-left: 15%;
+    position: relative;
+    top: 8em;
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-content{
+    margin: 0.8em;
+    /* border: 2px dotted blue; */
+
+}
+.home h1{
+    font-size: 3.5em;
+    /* margin-left: 5%; */
+    margin-bottom: 0;
+}
+.home span{
+    font-size: 1.7em;
+    /* margin-left: 5%; */
+}
+.home p{
+    font-size: 1.2em;
+    /* margin-left: 5%; */
+}
+
+.home button{
+    /* margin-left: 5%; */
+    color: var(--primary-color);
+    background-color: violet;
+    border: none;
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 8px;
+}
+.home button:hover{
+    cursor: pointer;
+    background-color: rgb(254, 105, 254);
+}
+
+.right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid blueviolet; */
+}
+
+.home .right img{
+    /* border: 2px solid var(--secondary-color); */
+     width: 100%;
+     height: auto;
+     max-height: 100%;
+     overflow: hidden;
+     /* margin: auto; */
+}
+.about{
+    /* background-color: grey; */
+    /* border: 2px solid red; */
+    height: 100vh;
+    margin-top: 0;
+}
+.about h1{
+    text-align: center;
+    font-size: 3.5em;
+    /* margin-top:4%; */
+}
+#intro{
+    /* border: 2px solid red; */
+    display: block;
+    text-align: center;
+}
+.about-container{
+    /* border: 2px solid red; */
+    display: flex;
+    width: 70%;
+    height: 75vh;
+    margin-left: 15%;
+    margin-top: 2em;
+}
+.about-container img{
+        /* border: 2px solid var(--secondary-color); */
+        width: 80%;
+        /* height: auto; */
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        margin: auto;
+    }
+
+.about-container .right p{
+    font-size: 1.2em;
+}
+
+.about-container .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-inner{
+    padding: 1.4em;
+}
+.work-details{
+    display: flex;
+    justify-content: space-around;
+}
+.work-details li{
+    list-style: none;
+}
+.work-details li h3{
+    font-size: 1.7em;
+}
+.work-details li span{
+    font-size: 1.2em;
+}
+
+.download-cv-btn{
+    color: var(--primary-color);
+    background-color: violet;
+    border: none;
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 2em;
+}
+.download-cv-btn:hover{
+    cursor: pointer;
+    background-color: rgb(254, 105, 254);
+}
+
+.projects{
+    margin-top: 4em;
+    /* border: 2px solid rebeccapurple; */
+    background-color: rgb(1, 1, 44);
+}
+.projects h1{
+    text-align: center;
+    color: white;
+    font-size: 3.5em;
+    margin-bottom: 1em;
+}
+
+/* .card-container{
+    background-color: rgb(1, 1, 44);
+} */
+.card{
+    width: 60%;
+    height: 30em;
+    margin: auto;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    display: flex;
+    flex-direction: row;
+    /* border: none; */
+}
+.card-left{
+    width: 50%;
+    /* border: 2px solid green; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-left img{
+    width: 70%;
+    height: auto;
+    overflow:hidden;
+}
+.card-right{
+    width: 50%;
+    /* border: 2px solid red; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 2em;
+
+}
+.card-right-content{
+    margin-top: 2em;
+}
+.card-right h3{
+    font-size: 2em;
+    color: black;
+}
+.card-right p{
+    font-size: 1.2em;
+    color: black;
+}
+
+.card-right button{
+    color: var(--primary-color);
+    background-color: violet;
+    border: none;
+    font-size: 1.2em;
+    padding: 0.5em 2em;
+    border-radius: 8px;
+    margin-top: 2em;
+}
+.card-right button:hover{
+    background-color: rgb(254, 105, 254);
+}
+
+.contact h1{
+    text-align: center;
+    font-size: 3.5em;
+    margin-top:4%;
+    margin-bottom: 0;
+}
+#getInTouch{
+    border-bottom: 1px solid var(--secondary-color);
+    display: block;
+    text-align: center;
+}
+
+.contact-me-left{
+    width: 70%;
+    height: 100%;
+    /* margin-top: 2.1em; */
+    /* border: 2px solid green; */
+    margin:2.1em auto;
+}
+
+
+/* .contact-me-left{ */
+    /* margin-top: 2.1em; */
+    /* border: 2px solid red; */
+    /* width: 100%; */
+/* } */
+.contact-me-left-inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 2px solid var(--secondary-color); */
+    width: 90%;
+    margin: auto;
+    /* padding: 0 2em; */
+    padding: 0 1em;
+}
+.contact-detail span{
+    font-size: 1.2em;
+}
+.contact-detail h3{
+    font-size: 2em;
+}
+.contact-me-right{
+    width: 70%;
+    height: 100%;
+    /* border: 2px solid blueviolet; */
+    margin: 2em auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .contact-me-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.contact-form{
+    width: 90%;
+    /* border: 2px solid var(--secondary-color); */
+
+}
+.contact-form input{
+    border: none;
+    background-color: var(--third-color);
+    height: 3em;
+    padding: 1em;
+    color: var(--secondary-color);
+    font-size: 1.2em;
+
+}
+.contact-form input::placeholder{
+    color: var(--secondary-color);
+}
+.contact-form textarea{
+    border: none;
+    background-color: var(--third-color);
+    padding: 1em;
+    color: var(--secondary-color);
+    font-size: 1.2em;
+
+}
+.contact-form textarea::placeholder{
+    color: var(--secondary-color);
+}
+#name{
+    width: 49%;
+    margin-right: 2%;
+}
+#email{
+    width: 49%;
+}
+#project{
+    margin-left: 0;
+    width: 100%;
+    margin-top: 1em;
+}
+#message{
+    margin-top: 1em;
+    width: 100%;
+    height: 10em;
+    /* height: 5em; */
+}
+
+.send-message{
+    color: var(--primary-color);
+    background-color: violet;
+    border: none;
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 2em;
+}
+
+.send-message:hover{
+    background-color: rgb(254, 105, 254);
+}
+
+@media screen and (max-width: 1180px){
+   .container{
+    width: 80%;
+    /* border: 2px solid green; */
+    margin: auto;
+   }
+
+   .about-container{
+    width: 80%;
+    /* border: 2px solid green; */
+    margin: auto;
+   }
+   .card{
+    width: 75%;
+   }
+   .contact-container{
+    width: 80%;
+    /* border: 2px solid green; */
+    margin: auto;
+   }
+   .contact-form{
+    width: 100%;
+    /* border: 2px solid red; */
+   }
+   .contact-me-left-inner{
+    width: 100%;
+    padding: 0;
+}
+}
+@media screen and (max-width: 650px){
+    
+    .container{
+        width: 85%;
+        /* border: 2px solid green; */
+        margin: auto;
+       }
+    .container .right{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+    }
+    .container .right img{
+        opacity: 0.7;
+        width: 100%;
+        height: 100%;
+    }
+    .container .left{
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        /* border: 2px solid red; */
+    }
+    
+    
+    .about-container{
+    width: 85%;
+    /* border: 2px solid green; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+    }
+    .about-container .left{
+        width: 70%;
+        height: auto;
+        margin: auto;
+        /* border: 2px solid royalblue; */
+        
+    }
+    .about-container .left img{
+        margin: auto;
+    }
+    .about-container .right{
+        width: 100%;
+        height: 100%;
+        /* border: 2px solid royalblue; */
+    }
+    .card{
+    width: 75%;
+    }
+    .contact-container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        /* background-color: bisque; */
+    }
+    .contact-me-left{
+        width: 30%;
+        /* border: 2px solid var(--secondary-color); */
+        margin-top: 1em;
+    }
+    .contact-me-left-inner{
+        display: flex;
+        flex-direction: column;
+        padding-top: 2.5em;
+    }
+    .contact-detail{
+        padding-top: 2.5em;
+    }
+    .contact-me-right{
+        width: 50%;
+        padding: 0;
+    }
+    #name{
+        width: 100%;
+    }
+    #email{
+        width: 100%;
+        margin-top: 1em;
+    }
+    #project{
+        width: 100%;
+    }
+    #message{
+        width: 100%;
+    }
+}

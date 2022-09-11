@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+*{
+    
+    font-size: 16px;
+}
+body{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+:root{
+    --primary-color:white;
+    --secondary-color:black;
+    --third-color:rgb(242, 230, 254);
+}
+.dark-theme{
+    --primary-color:black;
+    --secondary-color:white;
+    --third-color:rgb(128, 0, 255);
+    transition: 1s;
+}
+@media screen and (max-width: 1180px){
+    *{
+       
+       font-size: 12px;
+    }
+}
