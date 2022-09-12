@@ -40,6 +40,9 @@
     font-size: 1.2em;
     /* margin-left: 5%; */
 }
+.left-content a{
+    text-decoration: none;
+}
 
 .home button{
     /* margin-left: 5%; */
@@ -135,13 +138,16 @@
 }
 
 .download-cv-btn{
-    color: var(--primary-color);
     background-color: violet;
     border: none;
-    font-size: 1.2em;
     padding: 10px;
     border-radius: 8px;
     margin-top: 2em;
+}
+.download-cv-btn a{
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 1.2em;
 }
 .download-cv-btn:hover{
     cursor: pointer;
