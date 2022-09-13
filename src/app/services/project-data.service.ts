@@ -7,6 +7,7 @@ export class ProjectDataService {
 
   constructor(private http : HttpClient) { }
   getData(){
+    // return this.http.get(`http://localhost:3000/`)
     return this.http.get(`https://vikas-rai-portfolio.herokuapp.com/`)
   }
   getDataById(id:any){

@@ -98,7 +98,16 @@ header{
     .open-burger .bar{
         background-color: var(--primary-color);
     }
-
+    .sun-btn{
+        background-color: violet;
+        color: black;
+        border: none;
+    }
+    .moon-btn{
+        background-color: violet;
+        color: white;
+        border: none;}
+    
 }
 
 @media screen and (max-width: 450px)
