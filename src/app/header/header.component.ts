@@ -24,6 +24,7 @@ export class HeaderComponent implements OnInit {
     this.burger = !this.burger;
     console.log(this.display);
     }
+    
     theme = false;
     day = false;
     night =true;
